@@ -2,27 +2,16 @@
 # Author: Zepora
 # Date: 9/26/2025
 # Title: Movie Ticket Counter
-# Write a program that has the user input various movie names and how many 
-# tickets are desired for each movie.  
-# At the end of the program it prints out the total number of tickets desired by the user.  
-# Use either a "for loop" or "while loop" to accomplish this.
 
+# Program #2: Movie Tix
 
-def main():
-    # Initialize total ticket counter
-    total_tickets = 0
+total_tickets = 0
+num_movies = int(input("How many movies do you want to enter? "))
 
-    # Ask how many movies they want to buy tickets for
-    num_movies = int(input("How many different movies are you buying tickets for? "))
+for i in range(num_movies):
+    movie = input("Enter the movie name: ")
+    tickets = int(input(f"How many tickets for {movie}? "))
+    total_tickets += tickets
 
-    # Loop through each movie entry
-    for i in range(num_movies):
-        movie_name = input(f"Enter the name of movie {i + 1}: ")
-        tickets = int(input(f"How many tickets for '{movie_name}'? "))
-        total_tickets += tickets
+print("Total number of tickets desired:", total_tickets)
 
-    # Display the total number of tickets
-    print("Total number of tickets:", total_tickets)
-
-if __name__ == '__main__':
-    main()
