@@ -2,8 +2,8 @@
 # Write a program that has the user input various movie names and how many 
 # tickets are desired for each movie.  
 # At the end of the program it prints out the total number of tickets desired by the user.  
-# Use either a "for loop" or "while loop" to accomplish this.
 
+# Use either a "for loop" or "while loop" to accomplish this.
 # Program #2: Movie Tix
 # Author: Zepora
 # Date: 9/26/2025
@@ -23,7 +23,7 @@ def main():
         total_tickets += tickets
 
     # Display the total number of tickets
-    print(f"\nTotal tickets purchased: {total_tickets}")
+    print("Total number of tickets:", total_tickets)
 
 if __name__ == '__main__':
     main()
