@@ -7,11 +7,11 @@
 #Author: Zepora
 #Date: 9/26/2025
 #Title: Monthly Budget Tracker
-def main():
-    budget = 0.0
-    difference = 0.0
-    spent = 1.0         #initialize for while loop
-    total = 0.0
+
+budget = 0.0
+difference = 0.0
+spent = 1.0         #initialize for while loop
+total = 0.0
 
 # Program #5: Bank Balance
 

@@ -4,7 +4,6 @@
 #Title: Average Rainfall Calculator
 
 # Program #3: Average Rainfall
-
 years = int(input("Enter number of years: "))
 
 total_rainfall = 0
